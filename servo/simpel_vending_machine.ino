@@ -33,7 +33,7 @@ void loop()
 
 
 	buttonState1 = digitalRead(8);
-  buttonState2 = digitalRead(9);
+  	buttonState2 = digitalRead(9);
 
  while (true) {
     if (digitalRead(coinDetector) == LOW) { // If a coin is detected, exit the from the while loop
